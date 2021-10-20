@@ -16,7 +16,7 @@ import math, random
 from tensorflow import keras
 from keras.models import Sequential
 from keras.layers import Dense, Activation
-
+import math 
 
 
 def main():
