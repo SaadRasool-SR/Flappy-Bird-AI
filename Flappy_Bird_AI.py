@@ -133,8 +133,8 @@ class Game:
         self.Generation += 1
         self.bird.fitness_list = []
         self.bird.Cal_y_coord()
-        self.trees.x = 1100
-        self.trees_top.x = 1100
+        self.trees.x = 700
+        self.trees_top.x = 700
         self.bird.start_time = time.process_time()
         
         self.continue_game = True
