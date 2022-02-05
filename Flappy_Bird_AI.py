@@ -48,7 +48,7 @@ class Game:
         self.bird_width = 35
         self.bird_height = 35
         self.pause_time = 0.001
-        self.rect_x = 900
+        self.rect_x = 500
         self.rect_y = 700
         self.rect_y_T = 0
         self.rect_w = 150
@@ -468,9 +468,6 @@ class GA:
         
     def Reproduction(self):        
         return False 
-        
-        
-        
-
+    
 
 main()
